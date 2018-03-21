@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dJobs.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">           </script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    
+    
+    <a href='index.html'><div id="home"><strong>Home</strong></div></a>
+    <a href="3dOrigins.html"><div id="timeline"><strong>Timeline</strong></div></a>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    <a href="3dcites.html"><div id="cites"><strong>Cites</strong></div></a>
+    
+    <div id='wrapper-future'>
+        <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+        <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+        <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+        <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+        <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+    </div>
+    
+    <h2 id='h2-1'>3d Printing and The Job Market</h2>
+    
+    <p id='body-1'>Many, jobs have been and will be created through 3d printing. Jobs in computer repair, 3d design, production management, supply chain management, and small buisness owners and employees are just a few of the many different types of jobs 3d printing has and is creating. First, many jobs in computer and 3d printer repair are being created. People in this job would be repairing computers and troubleshooting problems with 3d printers. This job will require computer repair training and prolem solving skills. Second, 3d design jobs will be a constant need. Anybody with the skill and creativity to create 3d designs in cad programs will be paid well for their designs and can even create those designs for themselves. This job would require only the know how of using cad programs and the skill of creating 3d designs. Third, production management jobs will also be in need. As manufacturing is shipped out of foreign countrys and back into the U.S. factories will be in need of supervision to make sure everything is moving smoothly. This job would require training to know how the factory works and how to make it more efficient. Fourth, supply chain managers are necessary. These people would be managing the collection and distribution of supplies to the factories. This job would require the knowledge of how to get the cheapest supplys and how to get the supplys to the factorys on time. Lastly, through 3d printing many, many small online businesses. The owners of these businesses would require nothing but creativity and knowledge of business. These small businesses will stimulate economic growth.   </p>
+
+<a href='http://s3files.core77.com/blog/images/2014/09/0PHOTO5_sandstone.jpg'><img src='http://s3files.core77.com/blog/images/2014/09/0PHOTO5_sandstone.jpg'></a>    
+<a id='credit' href='http://s3files.core77.com'>Credit to s3files.core77.com</a>    
+    <div id='white'></div>
+    
+    
+<!--JAVASCRIPT-->
+        <script>
+        
+            $(document).ready(function() {
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+            });
+        
+        </script>
+</body>
+</html>

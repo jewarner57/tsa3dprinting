@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dHome.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">           </script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    
+    
+    <div id="home"><strong>Home</strong></div>
+    
+    <a href="3dOrigins.html"><div id="timeline"><strong>Timeline</strong></div></a>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    <a href="3dcites.html"><div id="cites"><strong>Cites</strong></div></a>
+    
+    <div id='wrapper-future'>
+        <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+        <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+        <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+        <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+        <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+    </div>
+    
+    
+    <div id='white'></div>
+    
+    <h2 id="h2-1">Additive Manufacturing</h2>
+    <p id="body-1">3d printing, or additive manufacturing is the process of creating a 3d object such as a plastic cube from a digital file. This is achieved by laying down layer after layer of a material such as plastic, rubber, or metal.  </p>
+    
+    <h2 id="h2-2">How does 3d printing work?</h2>
+    <p id="body-2">3d printing starts with creating a 3d redering of the object your planning to print, this is done with a program called CAD (computer aided design). Next the rendering you created is run through a 3d printing program. This program slices the 3d rendering down into hundreds or thousands of horizontal slices. </p>
+    <p id='body-2-5'>The data is then sent to the printer which reads each "slice" of data and proceeds to create the object layer by layer. The printer blends each layer together to create one solid object.</p>
+    
+    <a href=http://www.cnx-software.com/wp-content/uploads/2013/02/Cube_3D_Printer2.jpg><img src= http://www.cnx-software.com/wp-content/uploads/2013/02/Cube_3D_Printer2.jpg /></a>
+    <p id="credit">Picture Courtesy of www.cnx-software.com/</p>
+    
+<!--JAVASCRIPT-->
+        <script>
+        
+            $(document).ready(function() {
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                    $('#Manufact').css('background-color', '#838383');
+                });
+                
+            });
+        
+        </script>
+</body>
+</html>

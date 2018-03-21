@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dManufacturing.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">           </script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    
+    
+    <a href='index.html'><div id="home"><strong>Home</strong></div></a>
+    <a href="3dOrigins.html"><div id="timeline"><strong>Timeline</strong></div></a>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    <a href="3dcites.html"><div id="cites"><strong>Cites</strong></div></a>
+    
+    <div id='wrapper-future'>
+        <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+        <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+        <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+        <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+        <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+    
+    </div>
+    
+    <h2 id='h2-1' >3d Printers Effect On Manufacturing</h2>
+    <p id="body-1">Manufacturing has been revolutionized by 3d printing. Multiple companys have embraced 3d printing, and quickly incorperated it into their factories. Boeing, Ford, Nike, and, Hershey are examples of companys that are 3d printing parts, and products. </p>
+    
+    <p id='body-2'>3d printing has many different uses for companies around the world. Some companies such as Boeing and Ford use 3d printing to create metal parts for cars and planes. Boeing has been using 3d printing to create small airplane parts. Ford has been printing car parts since the 1980s and has recently printed their 500,000th part. Some companies such as Nike and Hershey are using 3d printing to create consumer goods such as clothes and food. Nike is printing soles for their shoes and some of their 3d printed shoes were even worn in the 2015 superbowl. Hershey is using 3d printing to create chocolate designs that were not possible to create easily before the creation of 3d printers.</p>
+    
+    <div id='white'></div>
+
+   <a href='http://static4.businessinsider.com/image/52d4556169beddcb48b245a4/nike-used-3d-printing-to-create-ultra-fast-football-cleats-for-the-super-bowl.jpg' ><img src='http://static4.businessinsider.com/image/52d4556169beddcb48b245a4/nike-used-3d-printing-to-create-ultra-fast-football-cleats-for-the-super-bowl.jpg'></a>
+    
+    <a id='credit' href='http://static4.businessinsider.com'>static4.businessinsider.com</a>
+            <script>
+        
+            $(document).ready(function() {
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                });
+                
+            });
+        
+        </script>
+    
+</body>
+</html>

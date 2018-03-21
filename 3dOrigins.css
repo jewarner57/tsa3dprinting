@@ -1,0 +1,377 @@
+html {
+    background-image:url(/Users/jonathanwarner/Desktop/TSA/InUsePictures/NewBitmapImage.bmp);
+}
+
+#heading {
+    width:1278px;;
+    height:100px;
+    top:0%;
+    left:50%;
+    margin-left:-638px;
+    margin-bottom: 20px;
+    background-color:#b5d9f3;
+    position:fixed;
+    z-index: 1; 
+    font-size: 42;
+    color: #474747;
+    padding-top: 20px;
+    text-align: center;
+}
+#header {
+    width:1278px;;
+    height:49px;
+    margin-top:100px;
+    background-color:#626262;
+    left:50%;
+    margin-left:-638px;
+    position:fixed;
+    z-index: 1;
+    border-top:10px solid #3eb9d2;
+    
+}
+
+#white {
+    width:900px;
+    left:50%;
+    height: 1000px;
+    background-color:white;
+    position: fixed;
+    margin-top:150px;
+    margin-left:-444px;
+    z-index: -2;
+}
+
+#background {
+    width:1278px;
+    left:50%;
+    margin-left: -638px;
+    height: 100%;
+    background-color:#bcbcbc;
+    position: fixed;
+    z-index: -5;
+}
+
+a {
+    text-decoration: none
+}
+
+#home {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-444px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#timeline {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-322px;
+    left:50%;
+    background-color:#959595;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#cites {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:44px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#Manufact {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-200px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-78px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial:hover, #timeline:hover, #home:hover, #Manufact:hover, #cites:hover {
+    background-color:#959595;
+}
+
+img {
+    left:50%;
+    margin-left: 170px;
+    z-index: 0;
+    position:absolute;
+    border:2px solid gray;
+    display: none;
+}
+
+h2 {
+    left:50%;
+    margin-left: -250px;
+    z-index: 0;
+    position:absolute;
+    top:200px;
+}
+
+#instruction {
+    left:50%;
+    margin-left: 120px;
+    z-index: 0;
+    position:absolute;
+    margin-top:170px;
+}
+
+li {
+    border: 2px solid #9edfef;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top:5px;
+    background-color:#b5d9f3;
+}
+
+ul {
+    left:50%;
+    right:40%;
+    margin-left: -450px;
+    z-index: 0;
+    position:absolute;
+    top:240px;
+    font-size: 18px;
+    font-family:serif;
+    list-style-type:none;
+    text-align: center;
+}
+
+#Invention-credit {
+    left:50%;
+    margin-left: 200px;
+    z-index: 0;
+    position:absolute;
+    margin-top:465px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#lithograph-credit {
+    left:50%;
+    margin-left: 240px;
+    z-index: 0;
+    position:absolute;
+    margin-top:470px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#built-credit {
+    left:50%;
+    margin-left: 220px;
+    z-index: 0;
+    position:absolute;
+    margin-top:530px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#sold-credit {
+    left:50%;
+    margin-left: 220px;
+    z-index: 0;
+    position:absolute;
+    margin-top: 610px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#organ-credit {
+    left:50%;
+    margin-left: 200px;
+    z-index: 0;
+    position:absolute;
+    margin-top:665px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#working-credit {
+    left:50%;
+    margin-left: 215px;
+    z-index: 0;
+    position:absolute;
+    margin-top:745px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#material-credit {
+    left:50%;
+    margin-left: 235px;
+    z-index: 0;
+    position:absolute;
+    margin-top:820px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#prosthetic-credit {
+    left:50%;
+    margin-left: 220px;
+    z-index: 0;
+    position:absolute;
+    margin-top:890px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#blood-credit {
+    left:50%;
+    margin-left: 210px;
+    z-index: 0;
+    position:absolute;
+    margin-top:950px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+}
+
+#gold-credit {
+    left:50%;
+    margin-left: 250px;
+    z-index: 0;
+    position:absolute;
+    margin-top:1030px;
+    color: #838383;
+    font-size: 14px;
+    display: none;
+} 
+
+
+#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #working-slide, #material-slide, #prosthetic-slide, #blood-slide, #gold-slide {
+    display: none;
+    border:2px solid #9edfef;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height:70px;
+    line-height: 30px; 
+    background-color:#9edfef;
+}
+
+#dropDown-1 {
+    width:150px;;
+    height:25px;
+    margin-top:159px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-2 {
+    width:150px;;
+    height:25px;
+    margin-top:196px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-3 {
+    width:150px;;
+    height:25px;
+    margin-top:233px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-4 {
+    width:150px;;
+    height:25px;
+    margin-top:270px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-3:hover, #dropDown-2:hover, #dropDown-1:hover, #dropDown-4:hover {
+    background-color:#acacac;
+}
+   

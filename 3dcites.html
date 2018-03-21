@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dHome.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    <a href="3dcites.html"><div id="cites1"><strong>Cites</strong></div></a>
+    
+    <a href='index.html'><div id="home1"><strong>Home</strong></div></a>
+    <a href="3dOrigins.html"><div id="timeline"><strong>Timeline</strong></div></a>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    
+    <div id='wrapper-future'>
+        <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+        <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+        <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+        <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+        <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+    
+    </div>
+    
+    <h2 id='h2-1' >Credit To Our Sources</h2>
+    
+    <ul>
+        <li><a href='http://en.wikipedia.org/wiki/3D_printed_firearms' class='link-'>http://en.wikipedia.org/wiki/3D_printed_firearms</a></li>
+        <li><a href='http://www.cnbc.com/' class='link-'>http://www.cnbc.com</a></li>
+        <li><a href='http://3dprinting.com ' class='link-'>http://3dprinting.com </a></li>
+        <li><a href='http://i.materialise.com/blog/entry/new-to-3d-printing-8-basic-facts' class='link-'>http://i.materialise.com/blog/entry/new-to-3d-printing-8-basic-facts</a></li>
+        <li><a href='http://3dprint.com/18633/3d-printers-manufacturing/ ' class='link-'>http://3dprint.com/18633/3d-printers-manufacturing/</a></li>
+    </ul>
+    
+    <div id='white'></div>
+
+    
+            <script>
+        
+            $(document).ready(function() {
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                    $('#Manufact').css('background-color', '#838383');
+                });
+                
+            });
+        
+        </script>
+    
+</body>
+</html>

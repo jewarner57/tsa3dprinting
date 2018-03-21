@@ -1,0 +1,321 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dOrigins.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">           </script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    <a href="3dcites.html"><div id="cites"><strong>Cites</strong></div></a>
+    
+    <a href="index.html"><div id="home"><strong>Home</strong></div></a>
+    <div id="timeline"><strong>Timeline</strong></div>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    
+        <div id='wrapper-future'>
+    <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+    <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+    <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+    <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+    <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+            
+    </div>
+    
+    
+    <div id='white'></div>
+    
+    <h2>Interactive Timeline</h2>
+    <ul>
+        <li id="Invention"><h3>1984 - Invention of the 3d printer</h3></li>
+        <div id="Invention-slide">Charles (Chuck) Hull, invents the first type of 3d printing - Stereolithography</div>
+        
+        <li id="lithograph"><h3>1986 - The term Stereolithography is created</h3></li>
+        <div id="lithograph-slide">Charles Hull, created the term Stereolithography when he patented his new machine.</div>
+        
+        <li id='built'><h3>1992 - First 3d printer is built</h3></li>
+        <div id="built-slide">The first Stereolithographic apparatus (SLA) is built by the company 3d systems.</div>
+        
+        <li id='sold'><h3>1998 - First 3d printer (SLA) is sold</h3></li>
+        <div id="sold-slide">The first Stereolithographic apparatus (SLA) is sold.</div>
+        
+        <li id='organ'><h3>1999 - First organ is printed</h3></li>
+        <div id="organ-slide">The first 3d organ, a bladder is printed with the patients own cells so the body won't reject it.</div>
+        
+        <li id='working'><h3>2000 - Working 3d printed organs</h3></li>
+        <div id="working-slide">Scientist engineer a 3d printed kidney that is able to filter blood</div>
+        
+        <li id='material'><h3>2006 - Printing in multiple materials</h3></li>
+        <div id="material-slide">Objet (A 3d systems and materials company) creates a 3d printer that can print in multiple materials such as metal, plastic, and rubber.</div>
+        
+        <li id='prosthetic'><h3>2008 - First usable prosthetic leg is printed</h3></li>
+        <div id="prosthetic-slide">The first usable prosthetic leg is printed and requires no assembly.</div>
+        
+        <li id='blood'><h3>2009 - 3d printed blood vessels</h3></li>
+        <div id="blood-slide">Organavo, creates the first 3d printed blood vessels.</div>
+        
+        <li id='gold'><h3>2011 - Printing gold and silver</h3></li>
+        <div id="gold-slide">Printing service i.materialize begins to offer 14 carot gold and sterling silver to be printed</div>
+    </ul>
+    
+    <img src= http://www.industryweek.com/site-files/industryweek.com/files/uploads/2013/11/hull.jpg />
+    
+    <h3 id='instruction'>Click on an event to learn more about it.</h3>
+    
+    <p id="Invention-credit">www.3dsystems.com</p>
+    <p id='lithograph-credit'>www.uz24.uz</p>
+    <p id='built-credit'>www.avplastics.co.uk</p>
+    <p id='sold-credit'>www.itnetwork.cz</p>
+    <p id='organ-credit'>media-cache-ec0.pinimg.com</p>
+    <p id='working-credit'>media-cache-ec0.pinimg.com</p>
+    <p id='material-credit'>www.3dhubs.com</p>
+    <p id='prosthetic-credit'>www.designboom.com</p>
+    <p id='blood-credit'>www.engineering.com</p>
+    <p id='gold-credit'>collectiveinnovation.com</p>
+    
+    <script>
+    $(document).ready(function() {
+        $('#Invention, #lithograph, #built, #organ, #sold, #working, #material, #prosthetic, #blood, #gold').click(function() {
+           $('#instruction').hide();                                                                                                            
+        });
+        
+        $('#Invention').click(function() {
+            $('#Invention-slide').slideToggle();
+            $('#lithograph-slide, #built-slide, #organ-slide, #sold-slide, #working-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+            
+            if($('#Invention-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(https://www.3dsystems.com/sites/default/files/styles/max_1300x1300/public/2017-02/3d-systems-evp-chief-technology-officer-chuck-hull.jpg?itok=OlnSMnrK)') 
+                $('img').height(224);
+                $('img').width(180);
+                $('img').css('margin-top', '235px');
+                document.getElementById("credit").src = "www.thisworks.com";
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#Invention-credit').delay(400).fadeIn('slow');
+                $('#lithograph-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#Invention-credit').fadeOut();
+                };
+            
+        });
+        $('#lithograph').click(function() {
+            $('#lithograph-slide').slideToggle();
+            $('#Invention-slide, #built-slide, #organ-slide, #sold-slide, #working-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+            
+            
+            if($('#lithograph-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url( http://www.uz24.uz/images/small/11974ai.jpg )')
+                $('img').height(210);
+                $('img').width(210);
+                $('img').css('margin-top', '250px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#lithograph-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }
+                else {
+                   $('img').fadeOut();
+                   $('#lithograph-credit').fadeOut();
+                };
+            
+        });
+        $('#built').click(function() {
+            $('#built-slide').slideToggle();
+            $('#Invention-slide, #lithograph-slide, #organ-slide, #sold-slide, #working-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+            
+            if($('#built-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(https://assets-auto.rbl.ms/42659ae0fe471bc95c42df031243b7812e6ffba7b1495733052586b4212959ea)') 
+                $('img').height(205);
+                $('img').width(210);
+                $('img').css('margin-top', '310px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#built-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#built-credit').fadeOut();
+                };
+        });
+            $('#sold').click(function() {
+        $('#sold-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #organ-slide, #working-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+                
+            if($('#sold-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(http://www.itnetwork.cz/images/10029/3d20tisk/sla-250.jpg)'); 
+                $('img').height(265);
+                $('img').width(195);
+                $('img').css('margin-top', '340px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#sold-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#sold-credit').fadeOut();
+                };
+        }); 
+       
+            $('#organ').click(function() {
+        $('#organ-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #working-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+                
+            if($('#organ-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(http://media-cache-ec0.pinimg.com/216x146/41/61/94/41619495ece0b579fb77369f596941ed.jpg)'); 
+                $('img').height(146);
+                $('img').width(216);
+                $('img').css('margin-top', '510px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#organ-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #working-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#organ-credit').fadeOut();
+                };
+  
+        });
+            $('#working').click(function() {
+        $('#working-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #material-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+                
+            if($('#working-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(http://www.web2carz.com/images/articles/201311/3dprinted_kidney_1383666330_600x364.jpg)'); 
+                $('img').height(156);
+                $('img').width(226);
+                $('img').css('margin-top', '580px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#working-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #organ-credit, #material-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#working-credit').fadeOut();
+                };
+                
+        });
+            $('#material').click(function() {
+        $('#material-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #working-slide, #prosthetic-slide, blood-slide, #gold-slide').slideUp();
+                
+            if($('#material-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(https://www.3dhubs.com/s3fs-public/styles/large/public/Stratasys%20-%20Rubber-like2.jpg?itok=GTPdemi5)'); 
+                $('img').height(176);
+                $('img').width(246);
+                $('img').css('margin-top', '630px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#material-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #blood-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#material-credit').fadeOut();
+                };
+                     
+        });
+            $('#prosthetic').click(function() {
+        $('#prosthetic-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #working-slide, #material-slide, blood-slide, #gold-slide').slideUp();
+                
+            if($('#prosthetic-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(http://www.designboom.com/wp-content/uploads/2014/12/3D-printed-exo-prosthetic-leg-designboom03.jpg)'); 
+                $('img').height(212);
+                $('img').width(200);
+                $('img').css('margin-top', '670px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#prosthetic-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #gold-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#prosthetic-credit').fadeOut();
+                };
+                
+        });
+            $('#blood').click(function() {
+        $('#blood-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #working-slide, #material-slide, #prosthetic-slide, #gold-slide').slideUp();
+                
+                            if($('#blood-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(http://www.engineering.com/Portals/0/BlogFiles/3D%20Printing/0614/bloodvessel.jpeg)'); 
+                $('img').height(200);
+                $('img').width(200);
+                $('img').css('margin-top', '740px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#blood-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #gold-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#blood-credit').fadeOut();
+                };
+          
+        });
+            $('#gold').click(function() {
+        $('#gold-slide').slideToggle();
+        $('#Invention-slide, #lithograph-slide, #built-slide, #sold-slide, #organ-slide, #working-slide, #material-slide, #prosthetic-slide, #blood-slide').slideUp();
+            
+            if($('#gold-slide').height()<10) {
+                $('img').fadeOut();
+                setTimeout( function(){
+                $('img').css('content', 'url(https://collectiveinnovation.com/wp-content/uploads/2016/03/3d-printed-gold.jpg)'); 
+                $('img').height(170);
+                $('img').width(258);
+                $('img').css('margin-top', '850px');
+                }, 400);
+                $('img').delay(400).fadeIn('slow');
+                $('#gold-credit').delay(400).fadeIn('slow');
+                $('#Invention-credit, #lithograph-credit, #built-credit, #sold-credit, #organ-credit, #working-credit, #material-credit, #blood-credit, #prosthetic-credit').fadeOut();
+                }   
+                else {
+                   $('img').fadeOut();
+                   $('#gold-credit').fadeOut();
+                };
+        });
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                    $('#Manufact').css('background-color', '#838383');
+                
+            });
+        
+    });
+        
+    </script>
+</body>
+</html>

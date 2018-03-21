@@ -1,0 +1,259 @@
+html {
+    background-image:url(/Users/jonathanwarner/Desktop/TSA/InUsePictures/NewBitmapImage.bmp);
+}
+
+#heading {
+    width:1278px;;
+    height:100px;
+    top:0%;
+    left:50%;
+    margin-left:-638px;
+    margin-bottom: 20px;
+    background-color:#b5d9f3;
+    position:fixed;
+    z-index: 1; 
+    font-size: 42;
+    color: #474747;
+    padding-top: 20px;
+    text-align: center;
+}
+#header {
+    width:1278px;;
+    height:49px;
+    margin-top:100px;
+    background-color:#626262;
+    left:50%;
+    margin-left:-638px;
+    position:fixed;
+    z-index: 1;
+    border-top:10px solid #3eb9d2;
+    
+}
+
+#white {
+    width:900px;
+    left:50%;
+    height: 1000px;
+    background-color:white;
+    position: fixed;
+    margin-top:150px;
+    margin-left:-444px;
+    z-index: -2;
+}
+
+#background {
+    width:1278px;
+    left:50%;
+    margin-left: -638px;
+    height: 100%;
+    background-color:#bcbcbc;
+    position: fixed;
+    z-index: -5;
+}
+
+a {
+    text-decoration: none
+}
+#home {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-444px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#timeline {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-322px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#Manufact {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-200px;
+    left:50%;
+    background-color:#959595;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-78px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial:hover, #timeline:hover, #home:hover, #Manufact:hover, #cites:hover {
+    background-color:#959595;
+}
+
+img {
+    left:50%;
+    margin-left: 80px;
+    z-index: 0;
+    position:absolute;
+    margin-top:220px;
+    border:2px solid gray;
+}
+
+#h2-1 {
+    left:50%;
+    margin-left: -370px;
+    z-index: 0;
+    position:absolute;
+    margin-top:200px;
+}
+#body-1 {
+    left:50%;
+    right:50%;
+    margin-left: -405px;
+    z-index: 0;
+    position:absolute;
+    margin-top:240px;
+    text-indent: 40px;
+    font-size: 18px;
+    font-family:serif;
+}
+
+#body-2 {
+    left:50%;
+    right:50%;
+    margin-left: -405px;
+    z-index: 0;
+    position:absolute;
+    margin-top:390px;
+    text-indent: 40px;
+    font-size: 18px;
+    font-family:serif;
+}
+
+#credit {
+    left:50%;
+    margin-left:105px;
+    z-index: 10;
+    position: absolute;
+    margin-top:530px;
+    color: #838383;
+    font-size: 14px;
+}
+
+#dropDown-1 {
+    width:160px;
+    height:25px;
+    margin-top:159px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-2 {
+    width:160px;;
+    height:25px;
+    margin-top:196px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-3 {
+    width:160px;;
+    height:25px;
+    margin-top:233px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-4 {
+    width:160px;;
+    height:25px;
+    margin-top:270px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    border:2px solid #626262;
+    display:none;
+}
+
+#cites {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:44px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+
+#dropDown-3:hover, #dropDown-2:hover, #dropDown-1:hover, #dropDown-4:hover {
+    background-color:#acacac;
+}

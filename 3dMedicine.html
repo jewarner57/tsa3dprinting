@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>3d Printers and Additive manufacturing</title>
+    <link type="text/css" rel="stylesheet" href=3dMedicine.css >  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>  
+    
+    <div id="background"></div>
+    <div id="heading"><strong>3d Printers and Additive Manufacturing</strong></div>
+    <div id="header"></div>
+    <a href="3dcites.html"><div id="cites"><strong>Cites</strong></div></a>
+    
+    <a href='index.html'><div id="home"><strong>Home</strong></div></a>
+    <a href="3dOrigins.html"><div id="timeline"><strong>Timeline</strong></div></a>
+    <a href="3dTutorial.html"><div id="tutorial"><strong>Tutorial</strong></div></a>
+    
+    <div id='wrapper-future'>
+        <a><div id="Manufact"><strong>Effects</strong></div></a>
+    
+        <a href="3dMedicine.html"><div class='drop' id="dropDown-1">Medicine</div></a>
+        <a href="3dManufacturing.html"><div class='drop' id="dropDown-2">Manufacturing</div></a>
+        <a href="3dMilitary.html"><div class='drop' id="dropDown-3">Gun Control</div></a>
+        <a href="3dJobs.html"><div class='drop' id="dropDown-4">Job Market</div></a>
+    
+    </div>
+    
+    <h2 id='h2-1' >3d Printers Effect On Medicine</h2>
+    <p id="body-1">3d printing technology has had an extraordinary impact on medicine. Printing a liver, lung or heart at the push of a button may seem a bit far fetched, but with advances in 3d printing technology this may soon become a reality. 3d bio printers work differently than normal 3d printers. Bio printers use a bio-ink made of living cells to create human tissue.</p>
+    
+    <p id='body-2'> Manufacturing working organs may be more than a decade away, but scientists have found other ways to create beneficial technology. One example of this technology is a printer that prints cells on the surface of a wound to cause the injury to heal more quickly. In the near future 3d printing could save thousands upon thousands of lives.</p>
+    
+    <a href='http://www.explainingthefuture.com/images/bioprinter_sidebar.jpg'><img src=http://www.explainingthefuture.com/images/bioprinter_sidebar.jpg></a>
+    
+    <a id='credit' href='http://www.explainingthefuture.com'>www.explainthefuture.com</a>
+    <div id='white'></div>
+
+    
+            <script>
+        
+            $(document).ready(function() {
+                $("#wrapper-future").mouseenter(function() {
+                    $('.drop').fadeIn();
+                    $('#Manufact').css('background-color', '#959595');
+                });
+                
+                $("#wrapper-future").mouseleave(function() {
+                    $('.drop').delay(200).fadeOut();
+                });
+                
+            });
+        
+        </script>
+    
+</body>
+</html>

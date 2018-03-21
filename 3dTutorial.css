@@ -1,0 +1,316 @@
+html {
+    background-image:url(/Users/jonathanwarner/Desktop/TSA/InUsePictures/NewBitmapImage.bmp);
+}
+
+#heading {
+    width:1278px;;
+    height:100px;
+    top:0%;
+    left:50%;
+    margin-left:-638px;
+    margin-bottom: 20px;
+    background-color:#b5d9f3;
+    position:fixed;
+    z-index: 1; 
+    font-size: 42;
+    color: #474747;
+    padding-top: 20px;
+    text-align: center;
+}
+#header {
+    width:1278px;;
+    height:49px;
+    margin-top:100px;
+    background-color:#626262;
+    left:50%;
+    margin-left:-638px;
+    position:fixed;
+    z-index: 1;
+    border-top:10px solid #3eb9d2;
+    
+}
+
+#white {
+    width:900px;
+    left:50%;
+    height: 1000px;
+    background-color:white;
+    position: fixed;
+    margin-top:150px;
+    margin-left:-444px;
+    z-index: -2;
+}
+
+#cites {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:44px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+
+#background {
+    width:1278px;
+    left:50%;
+    margin-left: -638px;
+    height: 100%;
+    background-color:#bcbcbc;
+    position: fixed;
+    z-index: -5;
+}
+
+a {
+    text-decoration: none
+}
+#home {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-444px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#timeline {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-322px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#Manufact {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-200px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial {
+    width:120px;;
+    height:35px;
+    margin-top:110px;
+    margin-left:-78px;
+    left:50%;
+    background-color:#959595;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:14px;
+    color: #414141;
+    font-size: 18;
+}
+
+#tutorial:hover, #timeline:hover, #home:hover, #Manufact:hover, #cites:hover {
+    background-color:#959595;
+}
+
+ol {
+    width:750px;
+    margin-top:360px;
+    margin-left:-425px;
+    left:50%;
+    position:absolute;
+    z-index: 0;
+    color: #414141;
+    font-size: 18;
+    
+}
+
+#li--, #li1, #li5, #li4, #li--- {
+    margin-top:20px;   
+}
+
+#ol- {
+    width:750px;
+    margin-top:1025px;
+    margin-left:-425px;
+    left:50%;
+    position:absolute;
+    z-index: 0;
+    color: #414141;
+    font-size: 18;
+}
+
+img1 {
+    left:50%;
+    margin-left: -350px;
+    z-index: 0;
+    position:absolute;
+    border:2px solid gray;
+}
+
+img2 {
+    left:50%;
+    margin-left: -350px;
+    z-index: 0;
+    position:absolute;
+    border:2px solid gray;
+}
+
+img3 {
+    left:50%;
+    z-index: 0;
+    position:absolute;
+    border:2px solid gray;
+    margin-top:20px;
+
+}
+
+}
+
+img4 {
+    left:50%;
+    z-index: 0;
+    position:absolute;
+    border:2px solid gray;
+
+}
+
+#h2-1 {
+    left:50%;
+    margin-left: -400px;
+    z-index: 0;
+    position:absolute;
+    margin-top:200px;
+}
+
+h3 {
+    left:50%;
+    margin-left: -410px;
+    z-index: 0;
+    position:absolute;
+    margin-top:1000px;
+}
+
+#h3- {
+    left:50%;
+    margin-left: -410px;
+    z-index: 0;
+    position:absolute;
+    margin-top:330px;
+}
+
+#body-1 {
+    left:50%;
+    right:50%;
+    margin-left: -405px;
+    z-index: 0;
+    position:absolute;
+    top:240px;
+    font-size: 18px;
+    font-family:serif;
+}
+
+#credit {
+    left:50%;
+    margin-left: 130px;
+    z-index: 0;
+    position:absolute;
+    top:540px;
+    color: #838383;
+    font-size: 14px;
+}
+
+#dropDown-1 {
+    width:160px;;
+    height:25px;
+    margin-top:159px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-2 {
+    width:160px;;
+    height:25px;
+    margin-top:196px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-3 {
+    width:160px;;
+    height:25px;
+    margin-top:233px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-4 {
+    width:160px;;
+    height:25px;
+    margin-top:270px;
+    margin-left:-202px;
+    left:50%;
+    background-color:#838383;
+    position:fixed;
+    z-index: 10;
+    text-align: center;
+    padding-top:10px;
+    color: #414141;
+    font-size: 18;
+    border:2px solid #626262;
+    border:2px solid #626262;
+    display:none;
+}
+
+#dropDown-3:hover, #dropDown-2:hover, #dropDown-1:hover, #dropDown-4:hover {
+    background-color:#acacac;
+}
